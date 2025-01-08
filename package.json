@@ -1,0 +1,20 @@
+{
+  "name": "twitch-embed",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MoonieGZ/BetterTVEmbed#readme",
+  "bugs": {
+    "url": "https://github.com/MoonieGZ/BetterTVEmbed/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonieGZ/BetterTVEmbed.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Moons",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
