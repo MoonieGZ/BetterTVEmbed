@@ -90,7 +90,7 @@ const getStreamStatus = async (userId: string): Promise<TwitchStream | null> => 
 }
 
 app.get('/:username', async (req: Request, res: Response): Promise<void> => {
-  const username = req.params.username
+  const username = req.params.username || 'ilyMoonsy'
 
   try {
     const channelInfo = await getTwitchChannelInfo(username)
