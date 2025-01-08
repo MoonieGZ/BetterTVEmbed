@@ -129,6 +129,7 @@ app.get('/:username', async (req: Request, res: Response): Promise<void> => {
     res.setHeader('Content-Type', 'text/html')
     res.send(`
       <meta name="og:site_name" content="Moons' TTV Embeds" />
+      <meta name="twitter:card" content="summary_large_image">
       <meta property="theme-color" content="#6441a5" />
       <meta property="og:title" content="${embedData.title}" />
       <meta property="og:description" content="${embedData.description}" />
