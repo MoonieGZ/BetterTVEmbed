@@ -104,6 +104,8 @@ app.get('/:username', async (req: Request, res: Response): Promise<void> => {
 
     const userAgent = req.headers['user-agent'] || ''
 
+    console.log(userAgent)
+
     if (!userAgent.includes('DiscordBot')) {
       return res.redirect(`https://twitch.tv/${username}`)
     }
